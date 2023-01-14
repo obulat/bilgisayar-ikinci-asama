@@ -6,27 +6,21 @@ date: 2022-01-01
 **Zaman sınırı: 3 saniye**
 **Hafıza sınırı: 1024 MB**
 
-# Arkadaşlar
-
 ## Soru
 
-Olimpiya şehri çok büyük ve ilginç bir şehirdir. Bu şehirde yollar kuzey-güney veya doğu-batı yönünde sonsuza kadar uzanan doğrular şeklindedir. Kuzey-güney yönünde N adet, doğu-batı yönünde M adet yol bulunmaktadır. Kuzey-güney yönünde uzanan yollar x = ai (1 ≤ i ≤ N) doğruları
-şeklide, doğu-batı yönünde uzanan yollar y = bj (1 ≤ j ≤ M) doğruları şeklinde gösterilmektedir.
-Örneğin x = 3 ve y = 2 yolları için Olimpiya şehri aşağıdaki gibidir:
+Olimpiya şehri çok büyük ve ilginç bir şehirdir. Bu şehirde yollar kuzey-güney veya doğu-batı yönünde sonsuza kadar uzanan doğrular şeklindedir. Kuzey-güney yönünde N adet, doğu-batı yönünde M adet yol bulunmaktadır. Kuzey-güney yönünde uzanan yollar $x = ai (1 ≤ i ≤ N)$ doğruları şeklide, doğu-batı yönünde uzanan yollar $y = bj (1 ≤ j ≤ M)$ doğruları şeklinde gösterilmektedir.
+Örneğin $x = 3$ ve $y = 2$ yolları için Olimpiya şehri aşağıdaki gibidir:
 
 
 Bu N+M tane yollardan K tanesinin üzerinde evi bulunan birbiriyle arkadaş K kişi bulunmaktadır.
-Bu arkadaşlardan k’inci (1 ≤ k ≤ K) arkadaşın evinin konumu (pk, qk) şeklide gösterilmektedir.
-Olimpiya şehrindeki her bir yol doğrusuna ait en fazla bir kişinin evi bulunmaktadır. Bazı yolların üzerinde hiç ev bulunmuyor olabilir. Örneğin; x = 3 yolu üzerinde evi (3, −2) noktasında bulunan ve y = 2 yolu üzerinde evi (−4, 2) noktasında bulunan iki arkadaşın bulunduğu Olimpiya şehri
-aşağıdaki gibidir:
+Bu arkadaşlardan k’inci $(1 ≤ k ≤ K)$ arkadaşın evinin konumu (pk, qk) şeklide gösterilmektedir.
+Olimpiya şehrindeki her bir yol doğrusuna ait en fazla bir kişinin evi bulunmaktadır. Bazı yolların üzerinde hiç ev bulunmuyor olabilir. Örneğin; $x = 3$ yolu üzerinde evi $(3, −2)$ noktasında bulunan ve $y = 2$ yolu üzerinde evi $(−4, 2)$ noktasında bulunan iki arkadaşın bulunduğu Olimpiya şehri aşağıdaki gibidir:
 
-Olimpiya şehrinde yaşayan bu arkadaşlar olimpiyat çalışmak için sık sık birbirlerinin evlerinde
-buluşmaktadır. Bu buluşmalarda arkadaşlar evleri arasındaki en kısa yolu kullanmaktadır.
-Örneğin yukarıdaki iki arkadaş birbirlerinin evinde buluşabilmek için gitmeleri gereken en kısa
-yol mesafesi 11 birimdir:
+Olimpiya şehrinde yaşayan bu arkadaşlar olimpiyat çalışmak için sık sık birbirlerinin evlerinde buluşmaktadır. Bu buluşmalarda arkadaşlar evleri arasındaki en kısa yolu kullanmaktadır.
+Örneğin yukarıdaki iki arkadaş birbirlerinin evinde buluşabilmek için gitmeleri gereken en kısa yol mesafesi 11 birimdir:
 
 Bu soruda sizden K arkadaşın evleri arasında bulunan bütün alt ikililer için toplam en kısa mesafeyi hesaplamanız istenmektedir.
-Örneğin; N = 2 ve M = 2 yol bulunan, K = 3 tane arkadaşın evinin bulunduğu Olimpiya şehri için y = 2 ve x = -4 yollarında evi bulunan arkadaşların evleri arasındaki en kısa mesafe 3 birimdir.
+Örneğin; $N = 2$ ve $M = 2$ yol bulunan, $K = 3$ tane arkadaşın evinin bulunduğu Olimpiya şehri için y = 2 ve x = -4 yollarında evi bulunan arkadaşların evleri arasındaki en kısa mesafe 3 birimdir.
 y = 2 ve x = 3 yollarında evi bulunan arkadaşların evleri arasındaki en kısa mesafe 11 birimdir.
 x = -4 ve x = 3 yollarında evi bulunan arkadaşların evleri arasındaki en kısa mesafe 12 birimdir.
 Bütün ikililer için toplam en kısa mesafe 3 + 11 + 12 = 26 birimdir
@@ -36,18 +30,18 @@ bozmamaktadır.
 
 ## Kısıtlamalar
 
-• Verilen tüm sayılar tam sayıdır.
-• 1 ≤ N ≤ 100 000
-• 1 ≤ M ≤ 100 000
-• 2 ≤ K ≤ N + M
-• −100 000 ≤ ai ≤ 100 000 (1 ≤ i ≤ N)
-• −100 000 ≤ bj ≤ 100 000 (1 ≤ j ≤ M)
-• −100 000 ≤ pk, qk ≤ 100 000 (1 ≤ k ≤ K)
-• Aynı yerde birden fazla yol veya ev bulunmamaktadır. Diğer bir değişle;
-o a1, a2, · · ·, aN sayıları birbirinden farklıdır.
-o b1, b2, · · ·, bM sayıları birbirinden farklıdır.
-o (p1, q1), (p2, q2), · · ·, (pK, qK) ikilileri birbirinden farklıdır.
-• Aynı yola ait birden fazla ev bulunmamaktadır.
+- Verilen tüm sayılar tam sayıdır.
+- $1 ≤ N ≤ 100 000$
+- $1 ≤ M ≤ 100 000$
+- $2 ≤ K ≤ N + M$
+- $−100 000 ≤ a_i ≤ 100 000 (1 ≤ i ≤ N)$
+- $−100 000 ≤ b_j ≤ 100 000 (1 ≤ j ≤ M)$
+- $−100 000 ≤ p_k, q_k ≤ 100 000 (1 ≤ k ≤ K)$
+- Aynı yerde birden fazla yol veya ev bulunmamaktadır. Diğer bir değişle;
+    - $a_1, a_2, · · ·, a_N$ sayıları birbirinden farklıdır.
+    - $b_1, b_2, · · ·, b_M$ sayıları birbirinden farklıdır.
+    - (p_1, q_1), (p_2, q_2), · · ·, (p_K, q_K) ikilileri birbirinden farklıdır.
+- Aynı yola ait birden fazla ev bulunmamaktadır.
 
 ## Alt Görevler
 1. (14 puan) M = 1.
@@ -55,16 +49,13 @@ o (p1, q1), (p2, q2), · · ·, (pK, qK) ikilileri birbirinden farklıdır.
 3. (20 puan) 1 ≤ N, M ≤ 20.
 4. (25 puan) 1 ≤ N, M ≤ 1 000.
 5. (30 puan) Ek kısıtlama yok.
-Girdi Formatı
-• İlk satırdı N, M ve K tam sayıları aralarında bir boşluk olacak şekilde verilmektedir.
-• İkinci satırdan N tane a1, a2, · · ·, aN tam sayıları aralarında bir boşluk olacak şekilde
-verilmektedir.
-• Üçüncü satırdan M tane b1, b2, · · ·, bM tam sayıları aralarında bir boşluk olacak şekilde
-verilmektedir.
-• Sonraki K satırda, her bir satırda k’ıncı evin koordinatları (pk, qk) aralarında bir boşluk
-olacak şekilde verilmektedir.
-Çıktı Formatı
-• Tek satırda bütün ikililer için toplam en kısa mesafeyi yazdırınız
+### Girdi Formatı
+- İlk satırdı N, M ve K tam sayıları aralarında bir boşluk olacak şekilde verilmektedir.
+- İkinci satırdan N tane $a_1, a_2, · · ·, a_N$ tam sayıları aralarında bir boşluk olacak şekilde verilmektedir.
+- Üçüncü satırdan M tane $b_1, b_2, · · ·, b_M$ tam sayıları aralarında bir boşluk olacak şekilde verilmektedir.
+- Sonraki K satırda, her bir satırda k’ıncı evin koordinatları $(p_k, q_k)$ aralarında bir boşluk olacak şekilde verilmektedir.
+### Çıktı Formatı
+- Tek satırda bütün ikililer için toplam en kısa mesafeyi yazdırınız
 
 
 ## Örnek Girdi 1

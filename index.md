@@ -1,27 +1,4 @@
 ---
-title: Bilgisayar Olimpiyatları Ikinci Aşama Soruları
+title: Welcome to my blog
 ---
 
-Ortaokul
-
-2018
-
-2019
-
-2020
-
-2021
-
-2022
-
-Lise
-
-2018
-
-2019
-
-2020
-
-2021
-
-2022
